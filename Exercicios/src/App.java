@@ -25,6 +25,7 @@ public class App {
 
     static String inversaoString(String s){
         if(s.length() > 0){
+            // Haskell pattern matching btw
             char c = s.charAt(0);
             String b = s.substring(1);
             return inversaoString(b) + c;
@@ -37,5 +38,6 @@ public class App {
         int a = 5;
         int b = 10;
         System.out.println(harmonica(5));
+        System.out.println(inversaoString("Pedro"));
     }
 }
